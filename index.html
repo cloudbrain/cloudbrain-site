@@ -49,14 +49,14 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >Cloudbrain</a>
+                <a href="#top"  onclick = $("#menu-close").click(); >CloudBrain</a>
             </li>
             <li>
                 <a href="#top" onclick = $("#menu-close").click(); >Home</a>
             </li>
-            <li>
+            <!--li>
                 <a href="#about" onclick = $("#menu-close").click(); >About</a>
-            </li>
+            </li-->
             <li>
                 <a href="#features" onclick = $("#menu-close").click(); >Features</a>
             </li>
@@ -77,30 +77,27 @@
 
     <!-- Header -->
     <header id="top" class="header">
-        <div class="text-vertical-center">
+      <div class="text-vertical-center">
         <h1>cloudbrain</h1>
         <h2>Open-source platform for wearable data analytics.</h2>
-                    <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
-        </div>
+        <br>
+        <a href="#features" class="btn btn-dark btn-lg">Find Out More</a>
+      </div>
     </header>
 
     <!-- About -->
-    <section id="about" class="about">
+    <!--section id="about" class="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h1>What is cloudbrain?</h1>
                     <br>
-                    <h3>Cloudbrain is a <strong>free</strong> and <strong>open-source</strong> platform for wearable data analytics.</h3>
+                    <h3>Cloudbrain is an <strong>open-source</strong> platform for wearable data analytics.</h3>
                     <h3>Our goal is to promote <strong>open science</strong> and to empower you to keep control over your own biodata.</h3>
-                    <h3>We're working hard to make it easy for you to <strong>store</strong>, <strong>visualize</strong>, and <strong>analyze</strong> data.</h3>
                 </div>
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
-    </section>
+    </section-->
 
     <!-- Features -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
@@ -120,8 +117,7 @@
                                 <h3>
                                     <strong>Send Data</strong>
                                 </h3>
-                                <h4>Connect your device and start streaming.</h4>
-                                <!--<a href="#" class="btn btn-light">Learn More</a>-->
+                                <h4>Collect from multiple data sources at once</h4>
                             </div>
                         </div>
 
@@ -134,7 +130,7 @@
                                 <h3>
                                     <strong>Store Data</strong>
                                 </h3>
-                                <h4>Save your sessions and learn from your data.</h4>
+                                <h4>Keep and browse your data history</h4>
                             </div>
                         </div>
 
@@ -147,7 +143,7 @@
                                 <h3>
                                     <strong>Analyze Data</strong>
                                 </h3>
-                                <h4>Find patterns with Digital Signal Processing and Machine Learning modules.</h4>
+                                <h4>Build flexible analytics pipelines</h4>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -159,7 +155,7 @@
                                 <h3>
                                     <strong>Visualize Data</strong>
                                 </h3>
-                                <h4>Try different modules to vizualize live or recorded data.</h4>
+                                <h4>Explore real-time and historical data with responsive charts</h4>
                             </div>
                         </div>
                     </div>
@@ -183,7 +179,7 @@
                     <h2 style="color:black">Cloudbrain is open-source. </h2>
                     <h2 style="color:black">Join the fun!</h2>
                     <br>
-                    <a href="https://github.com/marionleborgne/cloudbrain"  target="_blank">
+                    <a href="https://github.com/cloudbrain/cloudbrain"  target="_blank">
                     <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x" style="color:white"></i>
                     <i class="fa fa-github fa-stack-2x text-primary"></i>
@@ -198,118 +194,88 @@
 
 
 
-        <!-- Team Section -->
+    <!-- Team Section -->
     <section id="team" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <br>
-                    <h2 class="section-heading">Meet The Team</h2>
+                    <h2 class="section-heading">Contributors</h2>
                     <br>
                     <br>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/marion-partech-sm.jpg" class="img-responsive img-circle" alt="">
-                        <h3>Marion Le Borgne</h3>
-                        <!--<p class="text-muted">Project Lead and Creator</p>-->
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://github.com/marionleborgne" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-                            </li>
-                            <li><a href="http://ebrain.io" target="_blank"><i class="fa fa-globe fa-2x"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/marionleborgne/en" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/will.jpg" class="img-responsive img-circle" alt="">
-                        <h3>William Wnekowicz</h3>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://github.com/flysonic10" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-                            </li>
-                            <li><a href="http://willmakesthings.com/" target="_blank"><i class="fa fa-globe fa-2x"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/williamwnekowicz" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-		<div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/alessio.jpg" class="img-responsive img-circle" alt="">
-                        <h3>Alessio Della Motta</h3>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://github.com/alessiodm" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-                            </li>
-                            <li><a href="http://www.alessiodellamotta.com/" target="_blank"><i class="fa fa-globe fa-2x"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/alessiodellamotta" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
             </div>
             <div class="row">
               <div class="col-sm-4 col-sm-offset-1">
-                    <div class="team-member">
-                        <img src="img/team/john.jpg" class="img-responsive img-circle" alt="">
-                        <h3>John Naulty Jr.</h3>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://github.com/jnaulty/" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-                            </li>
-                            <li><a href="http://jnaulty.dendritictech.com" target="_blank"><i class="fa fa-globe fa-2x"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/pub/john-naulty/91/834/58b" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="team-member">
+                  <img src="img/team/marion-partech-sm.jpg" class="img-responsive img-circle" alt="">
+                  <h3>Marion Le Borgne</h3>
+                  <ul class="list-inline social-buttons">
+                    <li><a href="https://github.com/marionleborgne" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                    </li>
+                    <li><a href="http://ebrain.io" target="_blank"><i class="fa fa-globe fa-2x"></i></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/marionleborgne/en" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+                    </li>
+                  </ul>
                 </div>
-                <div class="col-sm-4 col-sm-offset-1">
-                    <div class="team-member">
-                        <img src="img/team/octo.jpg" class="img-responsive img-circle" alt="">
-                        <h3>Octavian Drulea</h3>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://github.com/octopicorn" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-                            </li>
-                            <li><a href="http://linkedin.com/in/octaviandrulea" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+              </div>
+              <div class="col-sm-4 col-sm-offset-1">
+                <div class="team-member">
+                  <img src="img/team/will.jpg" class="img-responsive img-circle" alt="">
+                  <h3>William Wnekowicz</h3>
+                  <ul class="list-inline social-buttons">
+                    <li><a href="https://github.com/flysonic10" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                    </li>
+                    <li><a href="http://willmakesthings.com/" target="_blank"><i class="fa fa-globe fa-2x"></i></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/williamwnekowicz" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+                    </li>
+                  </ul>
                 </div>
+              </div>
             </div>
+
             <div class="row">
-                <div class="col-sm-4 col-sm-offset-1">
-                    <div class="team-member">
-                        <img src="img/team/pierre.jpg" class="img-responsive img-circle" alt="">
-                        <h3>Pierre Karashchuk</h3>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="http://github.com/lambdaloop" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/pierrekarashchuk" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+              <div class="col-sm-4">
+                <div class="team-member">
+                  <img src="img/team/alessio.jpg" class="img-responsive img-circle" alt="">
+                  <h3>Alessio Della Motta</h3>
+                  <ul class="list-inline social-buttons">
+                    <li><a href="https://github.com/alessiodm" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                    </li>
+                    <li><a href="http://www.alessiodellamotta.com/" target="_blank"><i class="fa fa-globe fa-2x"></i></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/alessiodellamotta" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+                    </li>
+                  </ul>
                 </div>
-		<div class="col-sm-4 col-sm-offset-1">
-                    <div class="team-member">
-                        <img src="img/team/dvid.jpg" class="img-responsive img-circle" alt="">
-                        <h3>David Silva</h3>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://github.com/dvidsilva" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-                            </li>
-                            <li><a href="http://www.megusta.io/" target="_blank"><i class="fa fa-globe fa-2x"></i></a>
-                            </li>
-                            <li><a href="http://linkedin.com/in/dvidsilva" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+	      </div>
+	      <div class="col-sm-4">                
+		<div class="team-member">
+                  <img src="img/team/pierre.jpg" class="img-responsive img-circle" alt="">
+                  <h3>Pierre Karashchuk</h3>
+                  <ul class="list-inline social-buttons">
+                    <li><a href="http://github.com/lambdaloop" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/pierrekarashchuk" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+                    </li>
+                  </ul>
                 </div>
-	    </div>
+	      </div>
+	      <div class="col-sm-4">
+                <div class="team-member">
+                  <img src="img/team/octo.jpg" class="img-responsive img-circle" alt="">
+                  <h3>Octavian Drulea</h3>
+                  <ul class="list-inline social-buttons">
+                    <li><a href="https://github.com/octopicorn" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                    </li>
+                    <li><a href="http://linkedin.com/in/octaviandrulea" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
         </div>
     </section>
 
@@ -319,7 +285,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3>Cloudbrain is part of NeuroTechX, the international network for neurotechnologies.</h3>
+                    <h3>CloudBrain is part of NeuroTechX, the international network for neurotechnologies.</h3>
                     <a href="http://neurotechx.com/" target="_blank" class="btn btn-lg btn-light">Learn More</a>
                 </div>
             </div>
