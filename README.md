@@ -6,5 +6,5 @@ Start Bootstrap theme for getcloubrain.com website.
 
 ```
 ssh ubuntu@getcloudbrain.com
-getcloudbrain.com $ cd cloudbrain-site && ./deploy.sh
+getcloudbrain.com $ cd cloudbrain-site && ./deploy-script-to-run-on-server.sh
 ```
